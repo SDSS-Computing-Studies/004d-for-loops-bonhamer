@@ -16,8 +16,10 @@ All the tuple members will take turns being i
 for i in players:
     # this will check if the current tuple member is Ryu and then break out of the loop if it is
     if i == "Ryu":
-        break
+        pass
     print("===")
     print( i + " is going to the mall")
     print("---")
     print("\n")
+else:
+    print("ran out of data")
